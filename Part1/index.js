@@ -183,3 +183,189 @@
 // } else {
 //     console.log(`John's BMI ${BMIJohn} is higher than Mark's ${BMIMark}!`)
 // }
+
+/*Type Convertion*/ 
+    // const inputYear = '2000';
+    // console.log(Number(inputYear) + 18);
+
+    // console.log(Number('Vincent'));
+    // console.log(typeof NaN);
+
+    // console.log(String(23), 23);
+
+/* Type Coercion */
+  // console.log('I am ' + 23 + ' years old');
+  // console.log('23' - '10' - 3);
+  // console.log('23' / '2');
+
+  // let n = '1' + 1;
+  // n = n - 1;
+  // console.log(n)
+
+/*Falsy and truth values*/
+
+// 5falsy value => 0, "", undefined, null, NaN
+  //   console.log(Boolean(0));
+  //   console.log(Boolean(undefined));
+  //   console.log(Boolean('jonas'));
+  //   console.log(Boolean({}));
+  //   console.log(Boolean(""));
+
+  //   const accountBalance = 100;
+  //   if (accountBalance) {
+  //     console.log("Don't spend it all :)")
+  //   } else {
+  //     console.log('You should get a job')
+  //   }
+
+  //   let height = 29;
+  //   if(height){
+  //     console.log("YAY! Height is defined");
+  //   } else {
+  //     console.log("Height is UNDEFINED");
+  // }
+
+  /*Equality Operators*/
+
+    //const age = 18;
+  //strict equality operator
+      //if(age === 18) console.log("strict equal");
+  // loose equalityn operator
+      //if(age == '18') console.log("loosly equal");
+
+      // const favoriteNumber = Number(prompt("What's your favorite number?"));
+      // console.log(favoriteNumber);
+      // console.log(typeof(favoriteNumber));
+
+      // if (favoriteNumber === 24) {
+      //   console.log('Cool! 24 is an amazing number!');
+      // } else if (favoriteNumber === 7) {
+      //   console.log('7 is also a cool number');
+      // } else if (favoriteNumber === 9) {
+      //   console.log('9 is also a cool number');
+      // } else {
+      //   console.log('Number entered is not among the coolest numbers on earth');
+      // }
+
+      // if(favoriteNumber !== 23) {
+      //   console.log("Why not the 23😯")
+      // }
+
+/*Boolean Logic*/
+// const hasDriversLicense = true;
+// const hasGoodVision = true;
+
+// console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense || hasGoodVision);
+// console.log(!hasDriversLicense);
+
+
+// if(hasDriversLicense && hasGoodVision) {
+//   console.log("Vincent is able to drive")
+// } else {
+//   console.log("He doesn't meet the qualities of a good driver..")
+// }
+
+// const isTired = true;
+// console.log(hasDriversLicense && hasGoodVision && isTired);
+
+// if(hasDriversLicense && hasGoodVision && !isTired) {
+//   console.log("Vincent is able to drive")
+// } else {
+//   console.log("He can't at the moment... give the car to someone else")
+// }
+
+// let scoreDolphins = Number(prompt('Enter first team scores'));
+// let scoreKoalas = Number(prompt('Enter Second team scores'));
+
+// if((scoreDolphins === 96 || scoreDolphins === 108 || scoreDolphins === 89) && (scoreKoalas === 88 || scoreKoalas === 91 || scoreKoalas === 110)){
+//     console.log("Both win the trophy")
+
+// } else if(scoreKoalas === 88 || scoreKoalas === 91 || scoreKoalas === 110) {
+//     console.log("Koalas win the trophy")
+
+// } else if (scoreDolphins === 96 || scoreDolphins === 108 || scoreDolphins === 89){
+//     console.log("Dolphins win the trophy")
+
+// } else {
+//   console.log("There's no winner let's go for round two");
+// }
+
+// const day = prompt("Enter a day");
+
+// switch(day.toLowerCase()) {
+//   case 'monday':
+//     console.log("It's Monday");
+//     break;
+//   case 'tuesday':
+//     console.log("It's Tuesday");
+//     break;
+//   case 'wednesday':
+//     console.log("It's Wednesday");
+//     break;
+//   case 'thursday':
+//     console.log("It's Thursday");
+//     break;
+//   case 'friday':
+//     console.log("It's Friday");
+//     break;
+//   case 'saturday':
+//     console.log("It's Saturday");
+//     break;
+//   case 'sunday':
+//     console.log("It's Sunday");
+//     break;
+//   default:
+//     console.log("Enter a valid weekday");
+//     break;
+// }
+
+
+// if (day === 'monday'){
+//   console.log("It's Monday");
+// } else if (day === 'tuesday'){
+//    console.log("It's Tuesday");
+// } else if(day === 'wednesday'){
+//   console.log("It's Wednesday");
+// } else if(day === 'thursday'){
+//   console.log("It's Thursday");
+// } else if(day === 'friday'){
+//   console.log("It's Friday");
+// } else if(day === 'suturday'){
+//   console.log("It's Saturday");
+// }else if(day === 'sunday'){
+//   console.log("It's Sunday");
+// } else {
+//   console.log("Enter a valid weekday");
+// }
+
+/*The ternary operator*/
+// let currentYear = new Date().getFullYear()
+// const age = currentYear - 2000;
+// age >= 18 ? console.log("I like to drink win🍷") : console.log('I like to drink water 💧');
+
+// let drink2;
+// if(age >= 18){
+//   drink2 = "win🍷"
+// } else {
+//   drink2 = "water 💧"
+// }
+
+// console.log(drink2)
+// console.log(`I would like to drink ${drink2}`)
+const bill = 270;
+
+/* Write your code below. Good luck! 🙂 */
+
+let tip;
+// if(bill >= 50 && bill <= 300){
+//     tip = bill / 15
+//     console.log(`The bill was ${bill}, the tip was ${tip}, and the total value was ${bill + tip}`)
+// } else {
+//     tip = bill / 20
+//     console.log(`The bill was ${bill}, the tip was ${tip}, and the total value was ${bill + tip}`)
+
+// }
+
+tip = bill >= 50 && bill <= 300 ? (bill * 15 / 100) : (bill * 20 / 100)
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value was ${bill + tip}`)
